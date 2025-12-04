@@ -3,8 +3,8 @@ package h3;
 public class H3_main {
     public static void main(String[] args) {
         Mensch Elsa = new Mensch();
-        Elsa.setGebJahr(2010);
-        Elsa.setName("Elsa");
+        Elsa.setGebJahr(2006);
+        Elsa.setName("Yamin");
         Elsa.setAlter();
         System.out.println(Elsa.getName());
         System.out.println("Geboren:  "+Elsa.getGebJahr());
