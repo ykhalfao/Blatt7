@@ -10,6 +10,7 @@ public class Bruch {
         }
 
         public String toString() {
-            return z + ":" + n;
+        String bruch = z + ":" + n;
+            return bruch;
         }
     }

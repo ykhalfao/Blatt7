@@ -1,6 +1,6 @@
 package h1;
 public class Zahl {
-    boolean evan;
+    boolean even;
     boolean small;
     boolean positive;
     int num;
@@ -9,16 +9,7 @@ public class Zahl {
         num=i;
         return num;
     }
-    public void setEvan(){
-        if (num<0) {
-            num = -1*num;
-        }
-        if (num % 2 == 0){
-            evan = true;
-        }else {
-            evan = false;
-        }
-    }
+
     public void setSmall(){
         if (num<100){
             small = true;
@@ -32,5 +23,13 @@ public class Zahl {
         }else {
             positive = false;
         }
+    }
+    public void setEven(){
+            if (Math.abs(num) % 2 == 0){
+                even = true;
+            }
+            else {
+                even = false;
+            }
     }
 }
